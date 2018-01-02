@@ -9,7 +9,7 @@ I've started using ol ( Oracle Linux ) a lot more since this statement was made 
        width="654" height="450">
 </p>`
 
-# After downloading the 7.4 .iso from Oracle, my default kernel"
+# After downloading the 7.4 .iso from Oracle, my default kernel was 4.1
 
 <img src="./default-uname.png">
 
