@@ -32,7 +32,7 @@ yum remove kernel-3.10.0-693 kernel-tools-libs-3.10.0 kernel-3.10.0 kernel-tools
 
 Add in 4 kernels
 ```bash
-yum -y install kernel-uek-devel
+yum -y install kernel-uek-devel 
 ```
 
 Install EPEL
