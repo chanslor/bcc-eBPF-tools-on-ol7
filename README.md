@@ -3,6 +3,11 @@
 Thanks @brendangregg for the countless hours and excellent videos he has produced on getting us away from Solaris tracing to Linux tracing!
 And thank you @hydandata for the Centos7 example that got me started.
 
+I've started using ol ( Oracle Linux ) a lot more since this statement was made by Oracle:
+<p align="center">
+  <img src="./bold-statement.png" alt="Bold Statement"
+       width="654" height="450">
+</p>`
 
 Make sure your system is up to date
 ```bash
