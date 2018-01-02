@@ -9,6 +9,13 @@ I've started using ol ( Oracle Linux ) a lot more since this statement was made 
        width="654" height="450">
 </p>`
 
+# After downloading the 7.4 .iso from Oracle, my default kernel"
+
+<p align="center">
+  <img src="./default-uname.png" alt="Bold Statement"
+       width="654" height="450">
+</p>`
+
 Make sure your system is up to date
 ```bash
 yum -y update
