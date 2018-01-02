@@ -13,6 +13,13 @@ I've started using ol ( Oracle Linux ) a lot more since this statement was made 
 
 <img src="./default-uname.png">
 
+Check your default kernel
+```bash
+uname -a
+```
+
+Oracle Linux come with the [kernel-uek]
+
 Make sure your system is up to date
 ```bash
 yum -y update
@@ -122,3 +129,4 @@ make install
 ```
 
 [Oracle]: http://www.oracle.com/technetwork/server-storage/linux/downloads/index.html
+[kernel-uek]: http://www.oracle.com/technetwork/server-storage/linux/technologies/uek-overview-2043074.html
