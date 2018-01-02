@@ -100,7 +100,6 @@ make
 make install
 ```
 
-
 Install CFE and LLVM
 ```bash
 #TODO - put in .spec to build rpm
