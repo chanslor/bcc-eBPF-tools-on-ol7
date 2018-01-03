@@ -54,12 +54,11 @@ reboot system
 
 Remove all kernel 3.10 entries 
 ```bash
-yum remove kernel-headers-3.10.0 kernel-tools-libs-3.10.0
-yum remove kernel-debug-devel-3.10.0 kernel-devel-3.10.0
-yum remove kernel-3.10.0-693.el7.x86_64 kernel-3.10.0-693.11.1.el7.x86_64
+KERNEL3=$(rpm -qa --queryformat='%{name}-%{version} ' kernel* | /bin/grep 3.10)
+yum remove $KERNEL3
 
-RPMSTRING=$(rpm -qa --queryformat='%{name} ' kernel-uek*)
-yum remove $RPMSTRING
+KERNEL4=$(rpm -qa --queryformat='%{name} ' kernel-uek*)
+yum remove $KERNEL4
 
 #Then I had to re-install gcc:
 yum -y install gcc gcc-c++ gcc-gfortran glibc-devel glibc-headers
