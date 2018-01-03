@@ -13,14 +13,13 @@ Which is extra metadata that contains security and CVE information.
 After downloading the 7.4 .iso from [Oracle], my default kernel was 4.1 not 3.10 - 
 I was unable to make ebf/bcc work, so these instructions use elrepo's kernel.
 
+Oracle Linux 7.4 .iso came with the [kernel-uek] as default:
 <img src="./default-uname.png">
 
 Check your default kernel
 ```bash
 uname -a
 ```
-
-Oracle Linux 7.4 .iso came with the [kernel-uek] as default
 
 Make sure your system is up to date
 ```bash
