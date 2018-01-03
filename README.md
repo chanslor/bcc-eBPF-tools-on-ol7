@@ -4,10 +4,8 @@ Thanks @brendangregg for the countless hours and excellent videos he has produce
 And thank you @hydandata for the Centos7 example that got me started.
 
 I've started using ol ( Oracle Linux ) a lot more since this statement was made by Oracle:
-<p align="center">
-  <img src="./bold-statement.png" alt="Bold Statement"
-       width="654" height="450">
-<\p>
+
+<img src="./bold-statement.png" alt="Bold Statement">
 
 I've been using ol7 for 1 year and sync'ing updates nightly with no issues. NOTE: Oracle Linux updates include **updateinfo.xml.gz**
 Which is extra metadata that contains security and CVE information.
