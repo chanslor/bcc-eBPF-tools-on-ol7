@@ -25,11 +25,6 @@ Make sure your system is up to date
 yum -y update
 ```
 
-Add in 4 kernels
-```bash
-yum -y install kernel-uek-devel 
-```
-
 Install EPEL
 ```bash
 RHEL 7 / Centos 7 / OL 7
