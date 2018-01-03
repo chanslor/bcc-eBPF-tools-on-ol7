@@ -25,11 +25,6 @@ Make sure your system is up to date
 yum -y update
 ```
 
-Remove all 3.10 kernels
-```bash
-yum remove kernel-3.10.0-693 kernel-tools-libs-3.10.0 kernel-3.10.0 kernel-tools-3.10.0
-```
-
 Add in 4 kernels
 ```bash
 yum -y install kernel-uek-devel 
