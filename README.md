@@ -58,13 +58,8 @@ yum remove kernel-headers-3.10.0 kernel-tools-libs-3.10.0
 yum remove kernel-debug-devel-3.10.0 kernel-devel-3.10.0
 yum remove kernel-3.10.0-693.el7.x86_64 kernel-3.10.0-693.11.1.el7.x86_64
 
-yum remove:
-kernel-uek-firmware-4.1.12-94.3.9.el7uek.noarch
-kernel-uek-4.1.12-94.3.9.el7uek.x86_64
-kernel-uek-debug-4.1.12-112.14.1.el7uek.x86_64
-kernel-uek-firmware-4.1.12-112.14.1.el7uek.noarch
-kernel-uek-4.1.12-112.14.1.el7uek.x86_64
-`
+RPMSTRING=$(rpm -qa --queryformat='%{name} ' kernel-uek*)
+yum remove $RPMSTRING
 
 #Then I had to re-install gcc:
 yum -y install gcc gcc-c++ gcc-gfortran glibc-devel glibc-headers
