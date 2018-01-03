@@ -9,7 +9,11 @@ I've started using ol ( Oracle Linux ) a lot more since this statement was made 
        width="654" height="450">
 </p>`
 
-# After downloading the 7.4 .iso from [Oracle], my default kernel was 4.1
+I've been using ol7 for 1 year and sync'ing updates nightly with no issues. NOTE: Oracle Linux updates include updateinfo.xml.gz
+Which is extra metadata that contains security and CVE information.
+
+After downloading the 7.4 .iso from [Oracle], my default kernel was 4.1 not 3.10
+I was unable to make ebf/bcc work, so these instructions use elrepo's kernel.
 
 <img src="./default-uname.png">
 
