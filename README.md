@@ -31,12 +31,6 @@ RHEL 7 / Centos 7 / OL 7
 rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 ```
 
-Install developer tools
-```bash
-yum -y groupinstall "Development tools"
-yum install -y elfutils-libelf-devel iperf cmake3
-```
-
 Setup your build environment
 ```bash
 export BUILD_DIR="$HOME/build"
@@ -73,6 +67,7 @@ kernel-uek-4.1.12-112.14.1.el7uek.x86_64
 
 #Then I had to re-install gcc:
 yum -y install gcc gcc-c++ gcc-gfortran glibc-devel glibc-headers
+yum -y install elfutils-libelf-devel iperf cmake3
 ```
 
 
