@@ -6,9 +6,7 @@ Group:   Applications/System
 License: GPLv2+
 Packager: michael.chanslor@gmail.com
 
-
-URL: https://github.com/chanslor/bcc-eBPF-tools-on-ol7/archive/master.tar.gz
-Source0: %{name}-%{version}.tar.gz
+Source0: https://github.com/chanslor/bcc-eBPF-tools-on-ol7/archive/master.tar.gz#/%{name}-%{version}-%{release}.tar.gz
 
 BuildRoot:  /var/tmp/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
