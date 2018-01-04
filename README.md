@@ -32,10 +32,6 @@ RHEL 7 / Centos 7 / OL 7
 rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 ```
 
-Setup your build environment
-```bash
-export BUILD_DIR="$HOME/build"
-```
 
 IMPORT "The Community Enterprise Linux Repository" for Kernel
 ```bash
@@ -65,6 +61,11 @@ yum -y install gcc gcc-c++ gcc-gfortran glibc-devel glibc-headers
 yum -y install elfutils-libelf-devel iperf cmake3
 ```
 
+Setup your build environment
+```bash
+export BUILD_DIR="$HOME/build"
+mkdir -p $BUILD_DIR
+```
 
 Install PLY
 ```bash
