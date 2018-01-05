@@ -37,12 +37,17 @@ make install
 
 %install
 mkdir -p $RPM_BUILD_ROOT/usr/local/sbin/
+mkdir -p $RPM_BUILD_ROOT/usr/local/share/doc/ply/
+
 cp src/ply $RPM_BUILD_ROOT/usr/local/sbin/
 
 
 %files
-%defattr(0755,root,root)
-/usr/local/sbin/ply
+%defattr(0644,root,root)
+%attr(0755,root,root) /usr/local/sbin/ply
+%doc {COPYING,README.md}
+/usr/local/share/doc/ply/COPYING
+/usr/local/share/doc/ply/README.md
 
 %clean
 %{__rm} -rf %{buildroot}
