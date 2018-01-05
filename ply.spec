@@ -40,12 +40,13 @@ mkdir -p $RPM_BUILD_ROOT/usr/local/sbin/
 mkdir -p $RPM_BUILD_ROOT/usr/local/share/doc/ply/
 
 cp src/ply $RPM_BUILD_ROOT/usr/local/sbin/
+cp README.md $RPM_BUILD_ROOT/usr/local/share/doc/ply/
+cp COPYING $RPM_BUILD_ROOT/usr/local/share/doc/ply/
 
 
 %files
 %defattr(0644,root,root)
 %attr(0755,root,root) /usr/local/sbin/ply
-%doc {COPYING,README.md}
 /usr/local/share/doc/ply/COPYING
 /usr/local/share/doc/ply/README.md
 
