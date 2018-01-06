@@ -1,7 +1,12 @@
-Name:    bcc
+%define name bcc
+%define version 9.9
+%define build_timestamp %{lua: print(os.date("%Y%m%d"))}
+
+Name: %{name}
 Summary: bcc - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
-Version: 1
-Release: 1
+Version: %{version}
+Release: %{build_timestamp}
+
 Group:   Applications/System
 License: GPLv2+
 Packager: michael.chanslor@gmail.com
