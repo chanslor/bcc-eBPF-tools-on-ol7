@@ -18,6 +18,7 @@ AutoReqProv: no
 %description
 ply - A dynamic tracer for Linux
 
+
 %prep
 %autosetup -n %{name}-master -p1
 
@@ -33,7 +34,7 @@ ls -alrth
 ./autogen.sh
 ./configure
 make
-make install
+make install DESTDIR=$RPM_BUILD_ROOT
 
 %install
 mkdir -p $RPM_BUILD_ROOT/usr/local/sbin/
