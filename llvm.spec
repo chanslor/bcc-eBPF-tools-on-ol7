@@ -141,6 +141,7 @@ make install DESTDIR=$RPM_BUILD_ROOT
 /usr/lib/libLLVMX86Utils.a
 /usr/lib/libLLVMipo.a
 /usr/lib/libLTO.so
+/usr/include/llvm-c
 /usr/include/llvm
 
 
