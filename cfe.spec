@@ -100,17 +100,11 @@ make install DESTDIR=$RPM_BUILD_ROOT
 /usr/share/scan-view/bugcatcher.ico
 /usr/lib/libclang.so.3.9
 /usr/lib/libclang.so
-/usr/include/clang-c
-/usr/include/clang-c/CXString.h
-/usr/include/clang-c/Platform.h
-/usr/include/clang-c/CXErrorCode.h
-/usr/include/clang-c/BuildSystem.h
-/usr/include/clang-c/Index.h
-/usr/include/clang-c/Documentation.h
-/usr/include/clang-c/CXCompilationDatabase.h
-/usr/lib/cmake/clang/ClangTargets.cmake
-/usr/lib/cmake/clang/ClangTargets-noconfig.cmake
-/usr/lib/cmake/clang/ClangConfig.cmake
+/usr/lib/cmake/clang
+/usr/share/clang
+/usr/share/man/man1/scan-build.1.gz
+/usr/share/scan-view
+
 
 
 %clean
