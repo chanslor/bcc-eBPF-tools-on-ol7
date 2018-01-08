@@ -48,10 +48,10 @@ make install DESTDIR=$RPM_BUILD_ROOT
 /usr/lib/python2.7
 /usr/lib64/libbcc.so
 /usr/lib64/libbcc.so.0
-/usr/lib64/libbcc.so.128-NOTFOUND
 /usr/lib64/libbpf.so
 /usr/lib64/libbpf.so.0
-/usr/lib64/libbpf.so.128-NOTFOUND
+/usr/lib64/libbcc.so.EAD-HASH-NOTFOUND
+/usr/lib64/libbpf.so.EAD-HASH-NOTFOUND
 /usr/lib64/pkgconfig/libbcc.pc
 /usr/share/bcc/examples
 /usr/share/bcc/introspection/bps
