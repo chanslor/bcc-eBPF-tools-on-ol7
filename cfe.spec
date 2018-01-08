@@ -19,6 +19,7 @@ BuildRoot:  /var/tmp/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 AutoReqProv: no
 
 %define debug_package %{nil}
+%define __jar_repack %{nil}
 
 %description
 CFE CLANG The LLVM Project is a collection of modular and reusable compiler and toolchain technologies. Despite its name, LLVM has little to do with traditional virtual machines. The name "LLVM" itself is not an acronym; it is the full name of the project.
@@ -88,7 +89,6 @@ make install DESTDIR=$RPM_BUILD_ROOT
 /usr/bin/scan-build
 /usr/libexec/ccc-analyzer
 /usr/libexec/c++-analyzer
-/usr/share/man/man1/scan-build.1
 /usr/share/scan-build/scanview.css
 /usr/share/scan-build/sorttable.js
 /usr/bin/scan-view
